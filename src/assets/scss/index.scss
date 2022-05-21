@@ -1,0 +1,55 @@
+@import "./variables";
+
+#root {
+  padding: 1rem;
+  height: 100vh;
+  margin: 0px;
+  font-family: Roboto;
+  background-color: rgba(157, 164, 186, 0.1);
+
+  .sorting-system {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .btn-primary {
+      cursor: pointer;
+      height: 50px;
+      width: 161px;
+      border-radius: 4px;
+      border: none;
+      color: #fff;
+      font-weight: bold;
+      background-color: $primary-color;
+    }
+    .btn-seondary {
+      color: #555555;
+      margin-right: 10px;
+    }
+
+    .modal-button {
+      cursor: pointer;
+      height: 40px;
+      width: 90px;
+      border-radius: 4px;
+      border: none;
+    }
+
+    .score-wrapper {
+      border: 1px solid rgba(255, 141, 0, 0.7);
+      background-color: rgba(255, 141, 0, 0.3);
+      border-radius: 4px;
+      width: 30%;
+      height: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin-top: 50px;
+      .congrats {
+        font-weight: bold;
+        padding: 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+@import "../../assets/scss/variables";
+.header {
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-primary {
+    cursor: pointer;
+    height: 50px;
+    width: 161px;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    background-color: #ff8d00;
+}
